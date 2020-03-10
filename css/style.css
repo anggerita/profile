@@ -1,3 +1,85 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+nav {
+	background-color: #adf8d7;
+	/*atas kanan bawah kiri*/
+	/*atas+bawah kiri+kanan*/
+	/*padding: 10px 20px;*/
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 10px 10px 10px 10px #ddd;
+	border-bottom: 1px solid #adf8d7;
+}
+
+ul {
+	padding: 1rem; /*1rem = 16px*/
+	float: right;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 8px;
+}
+
+/*nav ul li {
+	
+	padding: 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.section {
+	padding: 40px;
+}
+
+.no-body {
+	height: 60px;
+}
+
+.section h3 {
+	margin: 0;
+}
+
+.section h1 {
+	margin-top: 0;
+}
+
+#navbar-logo {
+	padding-left: 20px;
+}
+
+#info_utama {
+	display: flex;
+}
+
+#identitas {
+	width: 50%;
+}
+
+#identitas p {
+	line-height: 26px;
+	color: #6f6f6f;
+	font-size: 14px
+}
+
+#gambar {
+	width: 50%;
+}
+
+#gambar img {
+	width: 100%;
+	border-radius: 1rem;
+}
+	
